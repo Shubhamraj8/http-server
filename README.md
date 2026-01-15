@@ -1,14 +1,13 @@
-# HTTP Server (Node.js)
+# HTTP Server (Node.js & Express)
 
-A simple HTTP server built using **Node.js core modules** (`http` and `fs`) to understand how servers work without any frameworks.
+A simple HTTP server built using **Node.js** then with **Express**
 
 ## 🚀 Features
 - Handles basic routes
 - Logs every incoming request to a `log.txt` file
-- Returns proper responses for unknown routes (404)
+- Returns proper responses using http Status Codes
 
 ## 🛠 Tech Used
 - Node.js
-- http module
-- fs module
+- Express
 
